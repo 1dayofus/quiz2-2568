@@ -1,6 +1,8 @@
 
 import { Button, Stack, Title, Divider, Container } from "@mantine/core";
 
+export default function FoodTracker() {
+
   return (
     <Container style={{ maxWidth: 600, margin: "auto", padding: 20 }}>
       <Title order={2} mb="md">
@@ -20,4 +22,4 @@ import { Button, Stack, Title, Divider, Container } from "@mantine/core";
       <Stack>{/* Type additional food card list here. */}</Stack>
     </Container>
   );
-
+}
